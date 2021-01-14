@@ -1,0 +1,181 @@
+/*!
+ * Resilience Academy
+
+ * Custom CSS
+
+ * Copyright 2019
+ * https://resilienceacademy.ac.tz
+ */
+ 
+section.custom-partners {
+  padding-top: 2em;
+}
+
+section.custom-raactivitites {
+    padding-top: 2em;
+    background-color: #3789D2;
+    background: #3789D2;
+  }
+
+  .text-ra {
+    color: #ffffff;
+  }
+
+footer.custom-footer {
+    background: white;
+    border-top: 1px solid black;
+    color: black;
+}
+
+footer img.footer-img {
+    height: 50px;
+}
+
+div.item-details p.abstract {
+    height: 88px;
+    overflow: hidden;
+}
+
+div.item-details h4 {
+    height: 47px;
+    overflow: hidden;
+}
+
+div.custom-search {
+    padding-top: 10px;
+}
+
+body {
+    /* background: #333333; */
+    background: white;
+}
+
+.home .navbar-inverse , .navbar-inverse {
+    background-color: #3789D2;
+}
+
+/*
+body div.container div.navbar-header a.navbar-brand {
+    background-image: url(../img/wrcoe_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}*/
+
+.navbar-brand {
+  background: url("../img/wrcoe_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /*text-indent: -9999px;
+  height: 65px;
+  width: 200px;*/
+}
+.home .jumbotron {
+    background-color: #3789D2
+}
+
+.home .jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+.home .jumbotron:after {
+    content: "";
+    background-image: url(../img/jumbotron_forest.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    /* background-size: 100%; */
+    height: 700px;
+    opacity: 0.5;    
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.home .jumbotron h1 {
+    text-shadow: 4px 3px 3px #000000;
+}
+
+.home .jumbotron p {
+    text-shadow: 2px 4px 4px #000000;
+}
+
+
+/* Showcase is the container below jumbotron */
+body.home div#wrap section#showcase {
+    background-color: #3789D2;
+}
+
+body.home div#wrap section#showcase a {
+    color: white;
+}
+
+.footer-copyright {
+    background-color: #3789D2;
+}
+
+.home .big-search {
+    /* background: #333333; */
+    background:transparent;
+    color: white;
+    padding-bottom: 0;
+    padding-top: 340px; 
+    /* margin-bottom: 20px; */
+  }
+
+  .home #showcase {
+    background: #eeeeee;
+    margin-top: 6px;
+    padding: 0 0; 
+    text-align: center;
+  }
+
+  .home .custom-ramessage
+  {
+    background: white;
+    color: white;
+    padding-bottom: 2em;
+    padding-top: 3em; 
+  }
+
+  .home .custom-blogs
+  {
+    background: #CCCCCC;
+    color: white;
+    padding-bottom: 2em;
+    padding-top: 3em; 
+  }
+
+  .text-ramessage {
+    color: black;
+  }
+
+  /*new start here
+
+   */
+ .navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #2a689e;
+ }
+
+ .navbar-nav .dropdown-menu {
+    background-color: #2a689e;
+    border-top: 1px solid #2a689e;
+ }
+
+ .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #2a689e;
+ }
+
+ .navbar-nav .dropdown-menu li a:hover {
+    background-color: #3789D2;
+    color: white;
+ }
+
+ .navbar-nav .dropdown-menu .divider {
+    background-color:
+    #FFF;
+ }

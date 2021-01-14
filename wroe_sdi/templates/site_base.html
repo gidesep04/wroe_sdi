@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+<title>{% block title %} WRCoE {% endblock %}</title>
+
+{% block extra_head %}
+      <link href="{{ STATIC_URL }}css/wroe.css" rel="stylesheet"/>
+      <link rel="shortcut icon" href="{{ STATIC_URL }}img/favicon.ico" />
+{% endblock %}
+{% block extra_tab %}
+{% comment %}
+Add Tab for Third Party Apps
+<li>
+ <a href="{{ PROJECT_ROOT }}app">App</a>
+</li>
+{% endcomment %}
+{% endblock %}
+
+{% block footer %}
+  <!--<footer class="custom-footer">
+    <div class="custom-container">
+
+      <div class="row">
+
+        <div class="col-md-6">
+	  <div class="row">
+
+          </div>
+        </div>
+
+        <div class="col-md-6">
+
+        </div>
+
+      </div>
+    </div>
+   </footer>-->
+
+
+  {#{% if custom_theme.copyright %}#}
+    <section class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 copyright ">
+            <div class="module">
+              <small>{{ "© Copyright 2020. All rights reserved. Water Resources Center of Excellence" }}</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {#{% endif %}#}
+
+  {% endblock footer %}
+
+
